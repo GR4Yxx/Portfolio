@@ -2,25 +2,26 @@ import {
   mobile,
   backend,
   web,
-  javascript,
-  typescript,
-  html,
-  css,
+  angular,
   reactjs,
-  redux,
   tailwind,
   nodejs,
-  mongodb,
   git,
   figma,
   docker,
-  carrent,
-  jobit,
-  tripguide,
-  threejs,
+  vctBg,
+  meetAutomationnBg,
+  nlpBg,
+  python,
   fs,
   itsa,
   futurewave,
+  vue,
+  flutter,
+  laravel,
+  unreal,
+  unity,
+  blender,
 } from "../assets";
 
 export const navLinks = [
@@ -44,55 +45,59 @@ const services = [
     icon: web,
   },
   {
-    title: "Game Developer",
-    icon: mobile,
-  },
-  {
     title: "Mobile Developer",
     icon: backend,
+  },
+  {
+    title: "Game Developer",
+    icon: mobile,
   },
 ];
 
 const technologies = [
   {
-    name: "HTML 5",
-    icon: html,
+    name: "Angular",
+    icon: angular,
   },
   {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
-    name: "JavaScript",
-    icon: javascript,
-  },
-  {
-    name: "TypeScript",
-    icon: typescript,
+    name: "Vue",
+    icon: vue,
   },
   {
     name: "React JS",
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "Flutter",
+    icon: flutter,
   },
   {
     name: "Tailwind CSS",
     icon: tailwind,
   },
   {
+    name: "Laravel",
+    icon: laravel,
+  },
+  {
     name: "Node JS",
     icon: nodejs,
   },
   {
-    name: "MongoDB",
-    icon: mongodb,
+    name: "Unreal",
+    icon: unreal,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "Unity3d",
+    icon: unity,
+  },
+  {
+    name: "Blender",
+    icon: blender,
+  },
+  {
+    name: "Python",
+    icon: python,
   },
   {
     name: "git",
@@ -196,8 +201,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: vctBg,
+    source_code_link: null,
   },
   {
     name: "Google Meet Automation",
@@ -217,8 +222,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: meetAutomationnBg,
+    source_code_link: null,
   },
   {
     name: "Hinglish Convertor",
@@ -239,8 +244,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: nlpBg,
+    source_code_link: null,
   },
 ];
 
