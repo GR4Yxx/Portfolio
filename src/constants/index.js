@@ -3,7 +3,6 @@ import {
   backend,
   web,
   angular,
-  reactjs,
   tailwind,
   nodejs,
   git,
@@ -62,10 +61,6 @@ const technologies = [
   {
     name: "Vue",
     icon: vue,
-  },
-  {
-    name: "React JS",
-    icon: reactjs,
   },
   {
     name: "Flutter",
